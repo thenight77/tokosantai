@@ -1,0 +1,139 @@
+ <b:skin><![CDATA[
+
+/*********************
+Layout Page Starts
+*********************/
+body#layout {
+height:800px;
+}
+body#layout #myNavbar  {
+display:none;
+}
+body#layout #myCarousel {
+display:none;
+}
+body#layout .col-sm-8{
+width:70%;float: left;
+}
+body#layout .col-sm-4{
+width:29%;float:right;
+}
+body#layout #floating-c{
+display:none;
+}
+/*********************
+Layout Page Ends
+*********************/
+
+/*********************
+Head Social Shares Start
+*********************/
+.fl-right{
+
+display:inline-block;float:right;
+}
+.fl-right a{
+font-size:40px;
+}
+
+.fl-right a:nth-child(1):hover{
+
+color:#33ccff ;
+}
+.fl-right a:nth-child(2):hover{
+
+color:#3b5998;
+}
+
+.fl-right a:nth-child(3):hover{
+
+color:#C92228;
+}
+
+@media screen and (max-width: 680px){
+     .fl-right{
+
+display:none;
+    }
+
+}
+/*********************
+Head Social Share Ends
+*********************/
+
+
+/************************
+Comments Start
+*************************/
+#comments { float: left; width: 100%; }
+#comments-block3 { padding: 0; margin: 0; float: left; overflow: hidden; position: relative; }
+#comment-name-url { width: 465px; float: left; } #comment-date { width: 465px; float: left; margin-top: 5px; font-size: 10px; }
+.avatar-image-container { background: none!important; border: none!important; ; }
+.datetime.secondary-text { float: right; }
+.comments .comments-content .comment-content { line-height: 20px; font-size: 14px; }
+.comments .comment .comment-actions a { padding-right: 5px; padding-top: 5px; text-decoration: none; }
+.comments .comments-content .comment { margin-bottom: 40px; padding-bottom: 8px; }
+.user.blog-author a { font-size: 20px; text-decoration: none; }
+.comment-actions a { color: #fff; }
+.comment-actions { padding: 10px; margin-top: 20px; float: right; background: #E18728; margin-bottom: 10px; }
+.comment-block { border: 1px solid #ddd; padding: 20px; }
+.comment-header { border-bottom: 1px solid #ddd; padding-bottom: 20px; }
+#comments h4 {  color: #222; text-transform: uppercase; padding: 10px; font-size: 18px; margin: 5px 0px; }
+#navbar-iframe{height:0;visibility:hidden;display:none;}
+/***********************
+Comments End
+*************************/
+
+
+
+/*********************
+General Styles Start
+*********************/
+body{background: #F6F9F9 fixed;font:17px roboto condensed;
+
+
+
+
+color:#333;
+}a{
+color:#000;
+
+}
+
+@media screen and (min-width: 1023px){
+     .row{
+      margin:10px; }
+
+}
+
+
+@media screen and (max-width: 500px){
+     .post img{
+     width:100%; }
+
+}
+
+@media screen and (max-width: 1023px){
+     .navbar-form{
+     display:none;; }
+
+}
+
+
+
+.titlewrapper{display: inline-block;}
+
+.descriptionwrapper{display: inline-block;}#header{
+
+padding: 10px;
+background: ;
+color: #fff;
+margin: 0px 10px 10px 10px;
+}
+
+#see .widget{
+
+border: 1px solid #DDD;
+padding: 10px;
+background: none repeat scroll 0% 0% #FFF;
+box-shadow: 0px 0px
